@@ -44,9 +44,10 @@ This project compares multiple machine learning algorithms for breast cancer det
 
 1. **Logistic Regression**
 2. **Support Vector Machine (SVM)**
-3. **Random Forest**
-4. **K-Nearest Neighbors (KNN)**
-5. **Naive Bayes**
+3. **Decision Tree**
+4. **Random Forest**
+5. **K-Nearest Neighbors (KNN)**
+6. **Naive Bayes**
 
 Each model is trained on the preprocessed dataset, and their performance is evaluated using various metrics. The models are compared to determine which performs best for breast cancer classification.
 
