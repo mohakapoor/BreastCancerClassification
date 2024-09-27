@@ -1,4 +1,3 @@
-
 # Breast Cancer Detection Using Machine Learning
 
 This repository contains code and resources for detecting breast cancer using machine learning algorithms. The project uses the **Breast Cancer Wisconsin (Original) Dataset** with preprocessing steps applied to prepare it for machine learning model training, aiming to predict whether a tumor is benign or malignant.
@@ -7,6 +6,7 @@ This repository contains code and resources for detecting breast cancer using ma
 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
+- [Models](#models)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -37,6 +37,23 @@ The dataset used in this project is the **Breast Cancer Wisconsin (Original) Dat
     - `4`: Malignant tumor
   
 This dataset, after preprocessing, is used for building a machine learning model to classify tumors.
+
+## Models
+
+This project compares multiple machine learning algorithms for breast cancer detection:
+
+1. **Logistic Regression**
+2. **Support Vector Machine (SVM)**
+3. **Random Forest**
+4. **K-Nearest Neighbors (KNN)**
+5. **Naive Bayes**
+
+Each model is trained on the preprocessed dataset, and their performance is evaluated using various metrics. The models are compared to determine which performs best for breast cancer classification.
+
+### Evaluation Metrics:
+- **Confusion Matrix**: A matrix showing true positives, true negatives, false positives, and false negatives, which helps visualize the performance of the model.
+- **Accuracy Score**: Measures the proportion of correctly predicted labels out of all predictions.
+- **Cross Validation Score**: The model is trained and validated on different folds of the data, and an average accuracy score is computed.
 
 ## Contributing
 
